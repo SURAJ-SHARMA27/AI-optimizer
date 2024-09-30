@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node modules
+node_modules
+
+# VS Code settings
+.vscode/
+
+# Ignore package-lock.json if you prefer
+package-lock.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dist folder (for build outputs)
+dist/
+
+# Ignore the vsix file if you generate it in the same folder
+*.vsix

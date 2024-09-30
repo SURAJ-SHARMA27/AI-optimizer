@@ -1,0 +1,22 @@
+{
+    "Node.js Express Boilerplate": {
+      "prefix": "nexp",
+      "body": [
+        "const express = require('express');",
+        "const app = express();",
+        "const port = 3000;",
+        "",
+        "// Define a GET route for '/'",
+        "app.get('/', (req, res) => {",
+        "  res.send('Hello, World!');",
+        "});",
+        "",
+        "// Start the server",
+        "app.listen(port, 'localhost', () => {",
+        "  console.log('Server running at http://localhost:\\${port}/');",
+        "});"
+      ],
+      "description": "Node.js Express Boilerplate"
+    }
+  }
+  
