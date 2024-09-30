@@ -27,23 +27,13 @@ In addition to AI-based code refactoring, the extension includes useful code sni
    - **MongoDB Express Connection**: Type `mongoexp` and hit Tab to insert MongoDB and Express boilerplate code.
    - **Node.js Express Boilerplate**: Type `nexp` and hit Tab to insert a basic Node.js server setup.
 
-## Installation
+## Installation from Git Repository
 
-1. Install the extension from the Visual Studio Code Marketplace.
-2. Ensure you have a valid API key for the AI service (configured via `.env` file with the variable `GEMINI_API_KEY`).
+To set up the **AI Code Refactor** extension from the GitHub repository:
 
-## Requirements
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/SURAJ-SHARMA27/AI-optimizer.git
+   cd AI-optimizer
 
-- **Node.js** and **npm**.
-- AI-powered suggestions use the **GoogleGenerativeAI** API. 
-- Visual Studio Code `1.93.0` or higher.
-
-## Known Issues
-
-None at the moment. Please report any issues on the GitHub repository.
-
-## Release Notes
-
-### 1.0.0
-
-- Initial release with AI-powered code optimization and two snippets (MongoDB connection and Node.js server setup).
+2. **Install Dependencies**:

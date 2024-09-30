@@ -26,13 +26,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.activate = activate;
 exports.deactivate = deactivate;
 const vscode = __importStar(require("vscode"));
-const dotenv = __importStar(require("dotenv"));
-dotenv.config();
+require('dotenv').config();
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-const gemini_api_key = process.env.GEMINI_API_KEY;
 let googleAI;
 try {
-    googleAI = new GoogleGenerativeAI("AIzaSyDKl1GheDTBv4wSrTW0V-3SCZNonVOcAbw");
+    googleAI = new GoogleGenerativeAI("AIzaSyDKl1GheDTBv4wSrTW0V-3SCZNonVOcAbw"); //paste your api key here
     console.log('GoogleGenerativeAI client initialized successfully.');
 }
 catch (error) {

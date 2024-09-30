@@ -15,16 +15,16 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-     "snippets": [
-    {
-      "language": "javascript",
-      "path": "./src/snippets/nodeBoilerplate.code-snippets"
-    },
-    {
-      "language": "javascript",
-      "path": "./src/snippets/mongodbExpress.code-snippets"
-    }
-  ],
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./src/snippets/nodeBoilerplate.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./src/snippets/mongodbExpress.code-snippets"
+      }
+    ],
     "commands": [
       {
         "command": "extension.withAI",
@@ -63,6 +63,7 @@
     "@google/generative-ai": "^0.20.0",
     "acorn": "^8.12.1",
     "acorn-walk": "^8.3.4",
+    "dotenv": "^16.4.5",
     "estraverse": "^5.3.0",
     "openai": "^4.65.0"
   }
