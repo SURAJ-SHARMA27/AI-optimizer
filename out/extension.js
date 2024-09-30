@@ -32,7 +32,7 @@ const { GoogleGenerativeAI } = require("@google/generative-ai");
 const gemini_api_key = process.env.GEMINI_API_KEY;
 let googleAI;
 try {
-    googleAI = new GoogleGenerativeAI(gemini_api_key);
+    googleAI = new GoogleGenerativeAI("AIzaSyDKl1GheDTBv4wSrTW0V-3SCZNonVOcAbw");
     console.log('GoogleGenerativeAI client initialized successfully.');
 }
 catch (error) {
